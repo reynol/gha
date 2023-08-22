@@ -19,6 +19,6 @@ jobs:
       - name: build and push to docker hub
         uses: docker/build-push-action@v3
         with:
-          context: .
+          context: ./script4
           push: true
           tags: r3ynol/script-4:${{ env.DATE }}
