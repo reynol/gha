@@ -1,6 +1,6 @@
   push:
     paths:
-      - script1/** 
+      - script4/** 
 name: deploy
 jobs:
   deploy:
@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: r3ynol/script-1:${{ env.DATE }}
+          tags: r3ynol/script-4:${{ env.DATE }}
